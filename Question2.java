@@ -11,5 +11,6 @@ public class Question2
     
     System.out.print("Input height in cm:");
     double height = in.nextDouble();
+    System.out.println(weight + " " + height);
   }
 }
