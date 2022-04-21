@@ -11,6 +11,7 @@ public class Question2
     
     System.out.print("Input height in cm:");
     double height = in.nextDouble();
-    System.out.println(weight + " " + height);
+    float bmi = height/(weight*weight);
+    System.out.println(bmi);
   }
 }
