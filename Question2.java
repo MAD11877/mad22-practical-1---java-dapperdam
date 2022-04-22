@@ -6,10 +6,10 @@ public class Question2
   {
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Input weight in kg:");
+    System.out.print("");
     double weight = in.nextDouble();
     
-    System.out.print("Input height in cm:");
+    System.out.print("");
     double height = in.nextDouble();
     System.out.println(height/(weight*weight));
   }
