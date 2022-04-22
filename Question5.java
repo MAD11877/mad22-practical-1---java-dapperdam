@@ -42,12 +42,12 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter a whole number:");
+    System.out.print("");
     int times = in.nextInt();
     int[] numberlist = new int[times];
     System.out.println(numberlist.length);
     for (int i = 0; i< times; i++){
-      System.out.print("Enter a whole number:");
+      System.out.print("");
       int x = in.nextInt();
       numberlist[i] = x;
       
