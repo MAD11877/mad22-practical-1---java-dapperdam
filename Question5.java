@@ -54,6 +54,6 @@ public class Question5
     }
     int n = times;
     int a[] = numberlist;
-    System.out.println("Mode: "+mode(a,n));
+    System.out.println(mode(a,n));
   }
 }
