@@ -45,7 +45,6 @@ public class Question5
     System.out.print("");
     int times = in.nextInt();
     int[] numberlist = new int[times];
-    System.out.println(numberlist.length);
     for (int i = 0; i< times; i++){
       System.out.print("");
       int x = in.nextInt();
